@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: vault-zero
+    env: python
+    buildCommand: "echo 'No build step required for VaultZero'"
+    startCommand: "python3 server.py"
+    envVars:
+      - key: PORT
+        value: 10000

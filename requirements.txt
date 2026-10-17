@@ -1,0 +1,2 @@
+# VAULT//ZERO uses Python standard libraries (sqlite3, http.server, secrets, hashlib)
+# for zero-attack-surface and zero-dependency reliability.
